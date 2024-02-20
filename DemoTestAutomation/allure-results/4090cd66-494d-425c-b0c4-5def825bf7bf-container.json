@@ -1,1 +1,0 @@
-{"uuid":"4090cd66-494d-425c-b0c4-5def825bf7bf","name":"DemoTestAutomation","children":["84e8c161-7acc-4e41-90c8-e6b7149a21c2"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1708388056648,"stop":1708388063907}],"afters":[],"start":1708388056623,"stop":1708388114578}
