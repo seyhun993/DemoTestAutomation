@@ -1,5 +1,6 @@
 package Pages;
 
+import Base.BaseTest;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -66,9 +67,10 @@ public class SignInPage {
 
     }
     public static SignInPage checkAlisverisSepeti(String actualText) {
-        String expectedText = webDriver.findElement(By.cssSelector(".sc-cart-header > div:nth-child(1) > h1:nth-child(1)")).getText();
-        Assert.assertEquals(actualText, expectedText);
+        String expectedText = webDriver.findElement(By.xpath("/html/body/div[1]/div[1]/div[3]/div[4]/div/div[2]/div[1]/div/form/div[2]/div[3]/div[4]/div/div[2]/ul/li/span/a/span[1]/span/span[2]")).getText();
+        Assert.assertEquals(actualText,expectedText);
         System.out.println(expectedText);
+
         return null;
     }
 

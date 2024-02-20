@@ -1,4 +1,4 @@
-package Pages;
+package Base;
 
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
@@ -15,7 +15,7 @@ public class BaseTest extends BaseLibrary {
 
         System.setProperty("webdriver.geck.driver","drivers/geckdrive");
         webDriver = new FirefoxDriver();
-        webDriver.get("https://www.amazon.com.tr/");
+        webDriver.get(BaseURL);
         webDriver.manage().window().maximize();
     }
 
